@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 83, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 34, in main
+    for settings in parse(setup):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 42, in parse
+    for line in file(setup):
+NameError: name 'file' is not defined
+Traceback (most recent call last):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 83, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 34, in main
+    for settings in parse(setup):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 42, in parse
+    for line in file(setup):
+NameError: name 'file' is not defined
+Traceback (most recent call last):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 83, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 35, in main
+    thread.start_new_thread(server, settings)
+NameError: name 'thread' is not defined
+Traceback (most recent call last):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 84, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 39, in main
+    time.sleep(60)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "port-forward.py", line 84, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File "port-forward.py", line 39, in main
+    time.sleep(60)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File ".\port-forward.py", line 84, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File ".\port-forward.py", line 39, in main
+    time.sleep(60)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 85, in <module>
+    main('port-forward.config', 'error.log', sys.argv[1:])
+  File "d:/Users/prsubrama/Downloads/python-port-forward-master/port-forward.py", line 39, in main
+    time.sleep(60)
+KeyboardInterrupt
